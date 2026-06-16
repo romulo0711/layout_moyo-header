@@ -18,19 +18,19 @@ body {
   justify-content: space-between;
 }
 
-.nav_list {
+.nav__list {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.nav_item {
+.nav__item {
   margin-left: 20px;
 }
-.nav_item:first-child {
+.nav__item:first-child {
   margin-left: 0;
 }
-.nav_link {
+.nav__link {
   display: flex;
   align-items: center;
   height: 60px;
@@ -40,9 +40,9 @@ body {
   text-transform: uppercase;
   position: relative;
 }
-.nav_link:hover,
-.nav_link.is-active,
-.nav_link[data-qa='hover']:hover {
+.nav__link:hover,
+.nav__link.is-active,
+.nav__link[data-qa='hover']:hover {
   color: var(--blue);
 }
 .nav_link.is-active::after {
