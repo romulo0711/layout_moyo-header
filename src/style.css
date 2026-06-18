@@ -14,7 +14,6 @@ body {
 .header {
   display: flex;
   align-items: center;
-  padding: 0.5rem 1rem;
   justify-content: space-between;
 }
 
